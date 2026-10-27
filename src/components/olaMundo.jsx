@@ -2,7 +2,7 @@ import "./style.css"
 
 function PageOne() {
     return (
-        <div>
+        <div className="main">
             <h1>Hello Mundo!!!!!!!</h1>
             <p>Sobre nós</p>
         </div>

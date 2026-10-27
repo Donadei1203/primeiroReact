@@ -1,10 +1,55 @@
 footer{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    color: #333;
-    background-color: #d7edff;
-    justify-content: center;
+    align-items: baseline;
+    color: #c3ccd4;
+    background-color: #383e42;
+    gap: 20px;
     height: min-content;
     padding: 20px;
+}
+
+#links-rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+
+    gap: 10px;
+}
+
+#links-rodape a{
+    text-decoration: none;
+    color: #c3ccd4;
+    font-size: 18px;
+}
+
+h4{
+    margin: 0px 0px;
+}
+
+.horarios{
+    display: flex;
+    flex-direction: column;
+}
+
+.horarios h5{
+    margin: 0px;
+}
+
+footer input{
+    padding: 3px 7px;
+    font-size: 14px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+footer .button{
+    border: 1px solid #333;
+    border-radius: 5px;
+
+}
+
+footer div{
+    max-height: 400px;
 }
