@@ -6,7 +6,7 @@ import App from './App.tsx';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'; 
   
 import Home from './pages/Home.tsx'; 
-import Sobre from './pages/sobrenos.tsx'; 
+import Sobre from './pages/Sobrenos.tsx'; 
 import Contato from './pages/Contato.tsx'; 
   
 const router = createBrowserRouter([ 

@@ -226,9 +226,51 @@ main {
 }
 
 .card-list {
+  margin: 10px 0px;
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: left;
+  gap: 10px;
   width: 100%;
+}
+
+.card{
+  background-color: #f6fbff;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.marcasParceiras{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.marcas{
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;  
+  background-color: #9ca3af;
+  gap: 10px;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.marcas img{
+  width: 120px;
+}
+
+.mensagemContato{
+  display: flex;
+  gap: 10px;
+}
+
+.mensagemContato div{
+  display: flex;
+  flex-direction: column;
 }

@@ -53,8 +53,8 @@ function Footer() {
         <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
         {/* <div style="max-width: 400px;"> */}
         <div>
-          <input type="text" placeholder="Your email" />
-          <button type="button">SignUp</button>
+          <input type="text" placeholder="Seu email" />
+          <button type="button">Mandar</button>
         </div>
       </div>
     </footer>
